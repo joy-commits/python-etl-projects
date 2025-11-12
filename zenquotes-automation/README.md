@@ -59,23 +59,17 @@ This helps maintain consistent, automated email delivery without manual interven
    python zenquotes_api.py
    ```
 
-(Optional) You can schedule it with **Windows Task Scheduler** or **cron** to send daily at a set time.
-
 ---
 
 ## 🧩 Example Output
 
 **Daily Quote Example:**
 
-
+<img width="619" height="221" alt="daily_quote" src="https://github.com/user-attachments/assets/0a15a82a-9c64-4590-bd6e-e87f8e05edc2" />
 
 
 **Email Log Example:**
 
-```
-2025-10-30 07:00:01 - INFO - Quote fetched successfully
-2025-10-30 07:00:02 - INFO - Email sent to: subscriber1@example.com
-2025-10-30 07:00:02 - INFO - Email sent to: subscriber2@example.com
-2025-10-30 07:00:03 - INFO - Daily summary sent to admin
-```
+<img width="1132" height="567" alt="logs" src="https://github.com/user-attachments/assets/096e0aeb-abb9-42fd-98e5-06d6ce4704d4" />
+
 
