@@ -12,15 +12,15 @@ import random
 import io
 
 # Connection to database
-url = "https://ieowmadnwhunbtxsjcwl.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imllb3dtYWRud2h1bmJ0eHNqY3dsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIxNzE1MjcsImV4cCI6MjA3Nzc0NzUyN30.2XyyqoDHN-Obj8Axzi8caovFGbZpVly8dwPuAw6BnRI"
+url = "https://xxx.supabase.co"
+key = "xxxx"
 supabase: Client = create_client(url, key)
 
 # Email credentials
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "ufuomajoy27@gmail.com"
-SENDER_PASSWORD = "qzxn frnj hegr yfzs"  # Replace with your actual app password
+SENDER_PASSWORD = "xxx"
 ADMIN_EMAIL = "ufuoma.ejite@gmail.com"
 
 # Logging setup
@@ -165,3 +165,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
