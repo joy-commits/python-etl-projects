@@ -44,7 +44,7 @@ def get_daily_quote():
             return quote
         except requests.exceptions.RequestException:
             if attempt < MAX_RETRIES - 1:
-                logging.warning(f"Connection error. Retrying ({attempt + 1}/{MAX_RETRIES})...")
+                logging.warning(f"Connection error. Retrying")
                 time.sleep(5)
             else:
                 logging.error("Failed to connect after all retries.")
@@ -165,4 +165,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
