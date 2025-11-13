@@ -144,7 +144,6 @@ def send_summary_log():
         print(f"Unexpected failure while sending summary log: {e}")
 
 
-# MAIN LOGIC
 def main():
     logging.info("=== Daily Quote Email Process Started ===")
     quote = get_daily_quote()
@@ -165,5 +164,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
